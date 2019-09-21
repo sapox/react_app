@@ -34,7 +34,7 @@ const UserTable = props => (
               <td>{user.gender}</td>
               <td>{user.birthplace}</td>
               <td>{user.city}</td>
-              <td>{user.birthDate}</td>
+              <td>{moment(new Date(user.birthDate)).format('DD/MM/YYYY')}</td>
               <td>{birthDateCalc(user.birthDate)}</td>
               <td>
                 <button onClick={()=> props.editRow(user) } className="button muted-button">Edit</button>
