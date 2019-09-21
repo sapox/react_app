@@ -11,3 +11,111 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h2{
+  text-align: center;
+}
+
+form {
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+  margin: 2rem auto 0 auto;
+  max-width: 600px;
+  padding: 1em;
+  margin-bottom: 50px;
+}
+
+input {
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+  min-width: 150px;
+}
+
+input:focus {
+  outline: 3px solid gold;
+}
+
+form input {
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  width: 100%;
+  border: 0;
+}
+
+form button:hover {
+  background: gold;
+}
+
+label {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+@media (min-width: 400px) {
+  label {
+    text-align: left;
+  }
+}
+
+.radio-container {
+  display: flex;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+/** table styles */
+
+table {
+  border: 2px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table td, table th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 4px;
+}
+
+table tbody td {
+  font-size: 13px;
+}
+
+table td:nth-child(even) {
+  background: #EBEBEB;
+}
+
+table thead {
+  background: #FFFFFF;
+  border-bottom: 4px solid #333333;
+}
+
+table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  border-left: 2px solid #333333;
+}
+
+table thead th:first-child {
+  border-left: none;
+}
+
+table tfoot td {
+  font-size: 14px;
+}

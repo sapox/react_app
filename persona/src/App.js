@@ -7,7 +7,7 @@ const App = () => {
  
   const usersData = [
     {id: 1, name: 'Diego', surname1: 'Puente', surname2: 'del Valle de Catamarca', gender: 'male', birthplace: 'Colima', city: 'Colima', birthDate: '09/19/1988'},
-    {id: 2, name: 'Rodrigo', surname1: 'Mancuerna', surname2: 'de la Serna', gender: 'male', birthplace: 'Campeche', city: 'Campeche', birthDate: '09/04/1978' },
+    {id: 2, name: 'Rodrigo', surname1: 'Moreno', surname2: 'de la Serna', gender: 'male', birthplace: 'Campeche', city: 'Campeche', birthDate: '09/04/1978' },
     {id: 3, name: 'Dardo', surname1: 'Venenoso', surname2: '', gender: 'female', birthplace: 'Nuevo León', city: 'Monterrey', birthDate: '06/13/1986'},
   ]
 
